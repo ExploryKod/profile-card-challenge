@@ -1,0 +1,36 @@
+:root {
+
+    /* colors */
+
+    --Dark-cyan: hsl(185, 75%, 39%);
+    --Very-dark-blue: hsl(229, 23%, 23%);
+    --Dark-grayish-blue: hsl(227, 10%, 46%);
+    --Neutral-dark-gray: hsl(0, 0%, 59%);
+
+
+    /* Size of the name according to style-guide: 18px */
+    --title-size: 1.125rem;
+
+    /* White spaces - multiple of 8 */
+
+    /* less than 16px - levels */
+
+    /* 4px  wide */
+    --second-sub-level: 0.25rem;
+
+    /* 8px wide */
+    --first-sub-level: 0.5rem;
+
+    /* 16px wide */
+    --root-space: 1rem;
+
+    /* The space here is 32px wide */
+    --first-level-space: 2rem;
+
+    /* 40px wide */
+    --second-level-space: 2.5rem;
+
+    /* 64px wide */
+    --second-level-space: 4rem;
+
+}
