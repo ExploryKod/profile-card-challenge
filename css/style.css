@@ -14,16 +14,16 @@
 
     position: absolute;
     z-index: -1;
-    top: -100%;
-    left: -60%;
+    top: -50%;
+    left: -30%;
 }
 
 .pattern-bottom {
 
     position: absolute;
     z-index: -1;
-    bottom: -100%;
-    right: -60%;
+    bottom: -50%;
+    right: -30%;
 }
 
 /* --main component styles-- */
@@ -182,6 +182,16 @@ footer {
 }
 
 @media screen and (max-width:476px) {
+
+    .top-pattern {
+        right: -50%;
+        top: -60%;
+    }
+
+    .pattern-bottom {
+        right: -50%;
+        bottom: -60%;
+    }
 
     .main-component {
         grid-column: 1 / span 3;
